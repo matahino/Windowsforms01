@@ -55,7 +55,7 @@ namespace Tt
             };
             myListBox.MouseDoubleClick += new MouseEventHandler(MyListBox_MouseDoubleClick);
 
-            Text = "フォルダ ビューア";
+            Text = "Folder Viewer";
             ClientSize = new Size(600, 500);
             Controls.AddRange(new Control[] { myButton, mySortButton, myDeleteButton, myTextBox, myListBox });
         }
@@ -74,7 +74,7 @@ namespace Tt
             }
             else
             {
-                MessageBox.Show("無効なパスです！");
+                MessageBox.Show("Invalid path!");
             }
         }
 
@@ -82,7 +82,7 @@ namespace Tt
         {
             if (string.IsNullOrEmpty(path) || !Directory.Exists(path))
             {
-                MessageBox.Show("有効なパスを指定してください。");
+                MessageBox.Show("Please specify a valid path.");
                 return;
             }
 
@@ -99,7 +99,7 @@ namespace Tt
 
                 if (sortedItems.Count == 0)
                 {
-                    MessageBox.Show("ソートするアイテムがありません。");
+                    MessageBox.Show("There are no items to sort.");
                     return;
                 }
 
@@ -111,7 +111,7 @@ namespace Tt
             }
             catch (Exception ex)
             {
-                MessageBox.Show("エラーが発生しました: " + ex.Message);
+                MessageBox.Show("An error has occurred:. " + ex.Message);
             }
         }
 
@@ -128,7 +128,7 @@ namespace Tt
             }
             catch (UnauthorizedAccessException)
             {
-                return size; // アクセス権限のないディレクトリはスキップ
+                return size; // Skip directories to which you do not have access rights
             }
 
             foreach (var fileInfo in fileInfos)
@@ -179,12 +179,12 @@ namespace Tt
                 }
                 else
                 {
-                    MessageBox.Show("削除するディレクトリが見つかりません。");
+                    MessageBox.Show("Directory to be deleted is not found.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("削除中にエラーが発生しました: " + ex.Message);
+                MessageBox.Show("An error occurred while deleting:. " + ex.Message);
             }
         }
     }
