@@ -1,9 +1,9 @@
 # Windowsforms01
-Do you have the option of not using visual studios?
-I do not use it. I just want to create an application.
-I'll do my best to create it using target:winexe.
-how to make it
+Do you have the option of not using a visual studio?
+I don't use it. But I really want to create an application.
+At the command prompt!
 
+I will do my best to create it using target:winexe.
 
 https://github.com/matahino/Windowsforms01/releases
 ![スクリーンショット 2024-02-03 091108](https://github.com/matahino/Windowsforms01/assets/96413690/58018175-5d7e-4369-a9e4-5b786500f716)
