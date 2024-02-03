@@ -1,9 +1,8 @@
 # Windowsforms01
-windowsfomsapp created with csc.exe and target command
-
-Feature:
-Calculates the size of folders. Sort by size (largest first)
-
+Do you have the option of not using visual studios?
+I do not use it. I just want to create an application.
+I'll do my best to create it using target:winexe.
+how to make it
 
 
 https://github.com/matahino/Windowsforms01/releases
