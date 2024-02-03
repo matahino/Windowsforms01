@@ -1,6 +1,6 @@
 # Windowsforms01
 Do you have the option of not using a visual studio?<br>
-I don't use it. But I really want to create an application.<br>
+I don't want to use it. I just created it.<br>
 At the command prompt!
 
 I will do my best to create it using target:winexe.
