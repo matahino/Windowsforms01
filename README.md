@@ -1,5 +1,9 @@
 # Windowsforms01
 windowsfomsapp created with csc.exe and target command
+Calculates the size of folders. Sort by size (largest first)
+
+
+
 https://github.com/matahino/Windowsforms01/releases
 ![スクリーンショット 2024-02-03 091108](https://github.com/matahino/Windowsforms01/assets/96413690/58018175-5d7e-4369-a9e4-5b786500f716)
 ![スクリーンショット 2024-02-03 091140](https://github.com/matahino/Windowsforms01/assets/96413690/2451749c-c628-401d-a907-8c547cb0e278)
