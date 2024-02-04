@@ -163,7 +163,7 @@ namespace Tt
         {
             if (myListBox.SelectedIndex == -1)
             {
-                MessageBox.Show("削除する項目を選択してください。");
+                MessageBox.Show("Select the item to be deleted.");
                 return;
             }
 
